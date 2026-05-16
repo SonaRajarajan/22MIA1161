@@ -1,0 +1,19 @@
+{
+  "name": "@22mia1161/logging-middleware",
+  "version": "1.0.0",
+  "description": "Reusable structured logging middleware for AffordMed campus evaluation",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": ["logging", "middleware", "affordmed"],
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "axios": "^1.6.8"
+  }
+}
